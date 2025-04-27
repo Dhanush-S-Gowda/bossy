@@ -80,7 +80,7 @@ const Portfolios = () => {
       <Navbar />
       <main className="container mx-auto px-4 pt-20">
         <div className="max-w-6xl mx-auto">
-          <div className="flex justify-between items-center mb-6">
+          <div className="flex flex-wrap justify-end gap-4">
             <h1 className="text-2xl font-bold text-sage-800">Portfolios</h1>
             <UploadPortfolioModal onSuccess={fetchPortfolios} />
           </div>
